@@ -1,0 +1,356 @@
+[06-Feb-2021 17:49:36 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-config.php on line 77
+[06-Feb-2021 17:49:37 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-config.php on line 77
+[06-Feb-2021 17:50:20 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-config.php on line 77
+[06-Feb-2021 17:50:22 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-config.php on line 77
+[06-Feb-2021 18:31:49 UTC] PHP Deprecated:  Thème sans header.php est <strong>obsolète</strong> depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de header.php à votre thème. in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/functions.php on line 5059
+[06-Feb-2021 18:31:49 UTC] PHP Stack trace:
+[06-Feb-2021 18:31:49 UTC] PHP   1. {main}() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/index.php:0
+[06-Feb-2021 18:31:49 UTC] PHP   2. require() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/index.php:17
+[06-Feb-2021 18:31:49 UTC] PHP   3. require_once() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-blog-header.php:19
+[06-Feb-2021 18:31:49 UTC] PHP   4. include() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/template-loader.php:106
+[06-Feb-2021 18:31:49 UTC] PHP   5. get_header() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/themes/ludi/index.php:1
+[06-Feb-2021 18:31:49 UTC] PHP   6. do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/general-template.php:38
+[06-Feb-2021 18:31:49 UTC] PHP   7. WP_Hook->do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/plugin.php:484
+[06-Feb-2021 18:31:49 UTC] PHP   8. WP_Hook->apply_filters() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:311
+[06-Feb-2021 18:31:49 UTC] PHP   9. et_theme_builder_frontend_override_header() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:289
+[06-Feb-2021 18:31:49 UTC] PHP  10. et_theme_builder_frontend_override_partial() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/includes/builder/frontend-builder/theme-builder/frontend.php:239
+[06-Feb-2021 18:31:49 UTC] PHP  11. locate_template() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/includes/builder/frontend-builder/theme-builder/frontend.php:191
+[06-Feb-2021 18:31:49 UTC] PHP  12. load_template() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/template.php:676
+[06-Feb-2021 18:31:49 UTC] PHP  13. require_once() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/template.php:730
+[06-Feb-2021 18:31:49 UTC] PHP  14. _deprecated_file() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/theme-compat/header.php:15
+[06-Feb-2021 18:31:49 UTC] PHP  15. trigger_error() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/functions.php:5059
+[06-Feb-2021 18:34:44 UTC] PHP Deprecated:  Thème sans header.php est <strong>obsolète</strong> depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de header.php à votre thème. in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/functions.php on line 5059
+[06-Feb-2021 18:34:44 UTC] PHP Stack trace:
+[06-Feb-2021 18:34:44 UTC] PHP   1. {main}() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/index.php:0
+[06-Feb-2021 18:34:44 UTC] PHP   2. require() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/index.php:17
+[06-Feb-2021 18:34:44 UTC] PHP   3. require_once() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-blog-header.php:19
+[06-Feb-2021 18:34:44 UTC] PHP   4. include() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/template-loader.php:106
+[06-Feb-2021 18:34:44 UTC] PHP   5. get_header() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/themes/ludi/index.php:1
+[06-Feb-2021 18:34:44 UTC] PHP   6. do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/general-template.php:38
+[06-Feb-2021 18:34:44 UTC] PHP   7. WP_Hook->do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/plugin.php:484
+[06-Feb-2021 18:34:44 UTC] PHP   8. WP_Hook->apply_filters() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:311
+[06-Feb-2021 18:34:44 UTC] PHP   9. et_theme_builder_frontend_override_header() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:289
+[06-Feb-2021 18:34:44 UTC] PHP  10. et_theme_builder_frontend_override_partial() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/includes/builder/frontend-builder/theme-builder/frontend.php:239
+[06-Feb-2021 18:34:44 UTC] PHP  11. locate_template() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/includes/builder/frontend-builder/theme-builder/frontend.php:191
+[06-Feb-2021 18:34:44 UTC] PHP  12. load_template() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/template.php:676
+[06-Feb-2021 18:34:44 UTC] PHP  13. require_once() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/template.php:730
+[06-Feb-2021 18:34:44 UTC] PHP  14. _deprecated_file() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/theme-compat/header.php:15
+[06-Feb-2021 18:34:44 UTC] PHP  15. trigger_error() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/functions.php:5059
+[06-Feb-2021 18:45:02 UTC] PHP Notice:  Undefined offset: 1 in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/includes/builder/frontend-builder/theme-builder/frontend.php on line 226
+[06-Feb-2021 18:45:02 UTC] PHP Stack trace:
+[06-Feb-2021 18:45:02 UTC] PHP   1. {main}() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/index.php:0
+[06-Feb-2021 18:45:02 UTC] PHP   2. require() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/index.php:17
+[06-Feb-2021 18:45:02 UTC] PHP   3. require_once() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-blog-header.php:19
+[06-Feb-2021 18:45:02 UTC] PHP   4. include() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/template-loader.php:106
+[06-Feb-2021 18:45:02 UTC] PHP   5. get_header() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/themes/ludi/index.php:1
+[06-Feb-2021 18:45:02 UTC] PHP   6. do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/general-template.php:38
+[06-Feb-2021 18:45:02 UTC] PHP   7. WP_Hook->do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/plugin.php:484
+[06-Feb-2021 18:45:02 UTC] PHP   8. WP_Hook->apply_filters() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:311
+[06-Feb-2021 18:45:02 UTC] PHP   9. et_theme_builder_frontend_override_header() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:289
+[06-Feb-2021 18:45:02 UTC] PHP  10. et_theme_builder_frontend_override_partial() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/includes/builder/frontend-builder/theme-builder/frontend.php:239
+[06-Feb-2021 18:45:02 UTC] PHP  11. et_theme_builder_extract_head() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/includes/builder/frontend-builder/theme-builder/frontend.php:195
+[06-Feb-2021 18:50:14 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/update.php on line 408
+[06-Feb-2021 18:50:14 UTC] PHP Stack trace:
+[06-Feb-2021 18:50:14 UTC] PHP   1. {main}() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/plugins.php:0
+[06-Feb-2021 18:50:14 UTC] PHP   2. require_once() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/plugins.php:10
+[06-Feb-2021 18:50:14 UTC] PHP   3. do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin.php:374
+[06-Feb-2021 18:50:14 UTC] PHP   4. WP_Hook->do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/plugin.php:484
+[06-Feb-2021 18:50:14 UTC] PHP   5. WP_Hook->apply_filters() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:311
+[06-Feb-2021 18:50:14 UTC] PHP   6. wp_update_plugins() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:287
+[06-Feb-2021 18:50:14 UTC] PHP   7. trigger_error() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/update.php:408
+[08-Feb-2021 10:07:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_post_pagination() in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/themes/ludi/single.php:40
+Stack trace:
+#0 /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-blog-header.php(19): require_once('/Users/thierryc...')
+#2 /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/index.php(17): require('/Users/thierryc...')
+#3 {main}
+  thrown in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/themes/ludi/single.php on line 40
+[08-Feb-2021 10:12:27 UTC] PHP Deprecated:  Thème sans comments.php est <strong>obsolète</strong> depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de comments.php à votre thème. in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/functions.php on line 5059
+[08-Feb-2021 10:12:27 UTC] PHP Stack trace:
+[08-Feb-2021 10:12:27 UTC] PHP   1. {main}() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/index.php:0
+[08-Feb-2021 10:12:27 UTC] PHP   2. require() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/index.php:17
+[08-Feb-2021 10:12:27 UTC] PHP   3. require_once() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-blog-header.php:19
+[08-Feb-2021 10:12:27 UTC] PHP   4. include() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/template-loader.php:106
+[08-Feb-2021 10:12:27 UTC] PHP   5. comments_template() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/themes/ludi/single.php:28
+[08-Feb-2021 10:12:27 UTC] PHP   6. require() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/comment-template.php:1558
+[08-Feb-2021 10:12:27 UTC] PHP   7. _deprecated_file() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/theme-compat/comments.php:15
+[08-Feb-2021 10:12:27 UTC] PHP   8. trigger_error() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/functions.php:5059
+[08-Feb-2021 10:12:46 UTC] PHP Deprecated:  Thème sans comments.php est <strong>obsolète</strong> depuis la version 3.0.0, aucune alternative n’est disponible. Veuillez inclure un modèle de comments.php à votre thème. in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/functions.php on line 5059
+[08-Feb-2021 10:12:46 UTC] PHP Stack trace:
+[08-Feb-2021 10:12:46 UTC] PHP   1. {main}() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/index.php:0
+[08-Feb-2021 10:12:46 UTC] PHP   2. require() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/index.php:17
+[08-Feb-2021 10:12:46 UTC] PHP   3. require_once() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-blog-header.php:19
+[08-Feb-2021 10:12:46 UTC] PHP   4. include() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/template-loader.php:106
+[08-Feb-2021 10:12:46 UTC] PHP   5. comments_template() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/themes/ludi/single.php:28
+[08-Feb-2021 10:12:46 UTC] PHP   6. require() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/comment-template.php:1558
+[08-Feb-2021 10:12:46 UTC] PHP   7. _deprecated_file() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/theme-compat/comments.php:15
+[08-Feb-2021 10:12:46 UTC] PHP   8. trigger_error() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/functions.php:5059
+[08-Feb-2021 14:00:52 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/update.php on line 408
+[08-Feb-2021 14:00:52 UTC] PHP Stack trace:
+[08-Feb-2021 14:00:52 UTC] PHP   1. {main}() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/plugins.php:0
+[08-Feb-2021 14:00:52 UTC] PHP   2. require_once() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/plugins.php:10
+[08-Feb-2021 14:00:52 UTC] PHP   3. do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin.php:374
+[08-Feb-2021 14:00:52 UTC] PHP   4. WP_Hook->do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/plugin.php:484
+[08-Feb-2021 14:00:52 UTC] PHP   5. WP_Hook->apply_filters() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:311
+[08-Feb-2021 14:00:52 UTC] PHP   6. wp_update_plugins() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:287
+[08-Feb-2021 14:00:52 UTC] PHP   7. trigger_error() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/update.php:408
+[08-Feb-2021 14:48:52 UTC] [Loco.error] "Translation set not known in Divi Builder" in src/admin/bundle/BaseController.php:69
+[08-Feb-2021 14:48:52 UTC] [Loco.debug] "Sync is disabled because this file doesn't relate to a known set of translations" in src/error/AdminNotices.php:115
+[08-Feb-2021 14:51:59 UTC] [Loco.error] "Translation set not known in Divi Builder" in src/admin/bundle/BaseController.php:69
+[08-Feb-2021 14:51:59 UTC] [Loco.debug] "Sync is disabled because this file doesn't relate to a known set of translations" in src/error/AdminNotices.php:115
+[08-Feb-2021 14:53:14 UTC] [Loco.error] "Translation set not known in Divi Builder" in src/admin/bundle/BaseController.php:69
+[08-Feb-2021 14:53:14 UTC] [Loco.debug] "Sync is disabled because this file doesn't relate to a known set of translations" in src/error/AdminNotices.php:115
+[08-Feb-2021 17:50:09 UTC] [Loco.warning] "This is NOT a translation file. Manual editing of source strings is not recommended." in src/error/AdminNotices.php:93
+[08-Feb-2021 18:12:10 UTC] PHP Notice:  Trying to access array offset on value of type int in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/formatting.php on line 884
+[08-Feb-2021 18:12:10 UTC] PHP Stack trace:
+[08-Feb-2021 18:12:10 UTC] PHP   1. {main}() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin-ajax.php:0
+[08-Feb-2021 18:12:10 UTC] PHP   2. do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin-ajax.php:184
+[08-Feb-2021 18:12:10 UTC] PHP   3. WP_Hook->do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/plugin.php:484
+[08-Feb-2021 18:12:10 UTC] PHP   4. WP_Hook->apply_filters() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:311
+[08-Feb-2021 18:12:10 UTC] PHP   5. et_core_portability_ajax_import() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:287
+[08-Feb-2021 18:12:10 UTC] PHP   6. ET_Core_Portability->import() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/core/components/Portability.php:2388
+[08-Feb-2021 18:12:10 UTC] PHP   7. sanitize_file_name() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/core/components/Portability.php:82
+[08-Feb-2021 18:12:10 UTC] PHP   8. seems_utf8() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/formatting.php:1999
+[08-Feb-2021 18:12:10 UTC] PHP Notice:  Trying to access array offset on value of type int in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/formatting.php on line 884
+[08-Feb-2021 18:12:10 UTC] PHP Stack trace:
+[08-Feb-2021 18:12:10 UTC] PHP   1. {main}() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin-ajax.php:0
+[08-Feb-2021 18:12:10 UTC] PHP   2. do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin-ajax.php:184
+[08-Feb-2021 18:12:10 UTC] PHP   3. WP_Hook->do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/plugin.php:484
+[08-Feb-2021 18:12:10 UTC] PHP   4. WP_Hook->apply_filters() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:311
+[08-Feb-2021 18:12:10 UTC] PHP   5. et_core_portability_ajax_import() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:287
+[08-Feb-2021 18:12:10 UTC] PHP   6. ET_Core_Portability->import() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/core/components/Portability.php:2388
+[08-Feb-2021 18:12:10 UTC] PHP   7. sanitize_file_name() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/core/components/Portability.php:82
+[08-Feb-2021 18:12:10 UTC] PHP   8. seems_utf8() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/formatting.php:1999
+[08-Feb-2021 18:12:10 UTC] PHP Notice:  Trying to access array offset on value of type int in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/formatting.php on line 884
+[08-Feb-2021 18:12:10 UTC] PHP Stack trace:
+[08-Feb-2021 18:12:10 UTC] PHP   1. {main}() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin-ajax.php:0
+[08-Feb-2021 18:12:10 UTC] PHP   2. do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin-ajax.php:184
+[08-Feb-2021 18:12:10 UTC] PHP   3. WP_Hook->do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/plugin.php:484
+[08-Feb-2021 18:12:10 UTC] PHP   4. WP_Hook->apply_filters() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:311
+[08-Feb-2021 18:12:10 UTC] PHP   5. et_core_portability_ajax_import() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:287
+[08-Feb-2021 18:12:10 UTC] PHP   6. ET_Core_Portability->import() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/core/components/Portability.php:2388
+[08-Feb-2021 18:12:10 UTC] PHP   7. sanitize_file_name() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/core/components/Portability.php:82
+[08-Feb-2021 18:12:10 UTC] PHP   8. seems_utf8() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/formatting.php:1999
+[08-Feb-2021 18:12:10 UTC] PHP Notice:  Trying to access array offset on value of type int in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/formatting.php on line 884
+[08-Feb-2021 18:12:10 UTC] PHP Stack trace:
+[08-Feb-2021 18:12:10 UTC] PHP   1. {main}() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin-ajax.php:0
+[08-Feb-2021 18:12:10 UTC] PHP   2. do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin-ajax.php:184
+[08-Feb-2021 18:12:10 UTC] PHP   3. WP_Hook->do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/plugin.php:484
+[08-Feb-2021 18:12:10 UTC] PHP   4. WP_Hook->apply_filters() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:311
+[08-Feb-2021 18:12:10 UTC] PHP   5. et_core_portability_ajax_import() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:287
+[08-Feb-2021 18:12:10 UTC] PHP   6. ET_Core_Portability->import() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/core/components/Portability.php:2388
+[08-Feb-2021 18:12:10 UTC] PHP   7. sanitize_file_name() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/core/components/Portability.php:82
+[08-Feb-2021 18:12:10 UTC] PHP   8. seems_utf8() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/formatting.php:1999
+[08-Feb-2021 18:12:10 UTC] PHP Notice:  Trying to access array offset on value of type int in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/formatting.php on line 884
+[08-Feb-2021 18:12:10 UTC] PHP Stack trace:
+[08-Feb-2021 18:12:10 UTC] PHP   1. {main}() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin-ajax.php:0
+[08-Feb-2021 18:12:10 UTC] PHP   2. do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin-ajax.php:184
+[08-Feb-2021 18:12:10 UTC] PHP   3. WP_Hook->do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/plugin.php:484
+[08-Feb-2021 18:12:10 UTC] PHP   4. WP_Hook->apply_filters() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:311
+[08-Feb-2021 18:12:10 UTC] PHP   5. et_core_portability_ajax_import() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:287
+[08-Feb-2021 18:12:10 UTC] PHP   6. ET_Core_Portability->import() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/core/components/Portability.php:2388
+[08-Feb-2021 18:12:10 UTC] PHP   7. sanitize_file_name() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/core/components/Portability.php:82
+[08-Feb-2021 18:12:10 UTC] PHP   8. seems_utf8() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/formatting.php:1999
+[08-Feb-2021 18:12:10 UTC] PHP Notice:  Trying to access array offset on value of type int in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/formatting.php on line 884
+[08-Feb-2021 18:12:10 UTC] PHP Stack trace:
+[08-Feb-2021 18:12:10 UTC] PHP   1. {main}() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin-ajax.php:0
+[08-Feb-2021 18:12:10 UTC] PHP   2. do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin-ajax.php:184
+[08-Feb-2021 18:12:10 UTC] PHP   3. WP_Hook->do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/plugin.php:484
+[08-Feb-2021 18:12:10 UTC] PHP   4. WP_Hook->apply_filters() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:311
+[08-Feb-2021 18:12:10 UTC] PHP   5. et_core_portability_ajax_import() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:287
+[08-Feb-2021 18:12:10 UTC] PHP   6. ET_Core_Portability->import() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/core/components/Portability.php:2388
+[08-Feb-2021 18:12:10 UTC] PHP   7. sanitize_file_name() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/core/components/Portability.php:82
+[08-Feb-2021 18:12:10 UTC] PHP   8. seems_utf8() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/formatting.php:1999
+[08-Feb-2021 18:12:10 UTC] PHP Notice:  Trying to access array offset on value of type int in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/formatting.php on line 884
+[08-Feb-2021 18:12:10 UTC] PHP Stack trace:
+[08-Feb-2021 18:12:10 UTC] PHP   1. {main}() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin-ajax.php:0
+[08-Feb-2021 18:12:10 UTC] PHP   2. do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin-ajax.php:184
+[08-Feb-2021 18:12:10 UTC] PHP   3. WP_Hook->do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/plugin.php:484
+[08-Feb-2021 18:12:10 UTC] PHP   4. WP_Hook->apply_filters() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:311
+[08-Feb-2021 18:12:10 UTC] PHP   5. et_core_portability_ajax_import() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:287
+[08-Feb-2021 18:12:10 UTC] PHP   6. ET_Core_Portability->import() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/core/components/Portability.php:2388
+[08-Feb-2021 18:12:10 UTC] PHP   7. sanitize_file_name() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/core/components/Portability.php:82
+[08-Feb-2021 18:12:10 UTC] PHP   8. seems_utf8() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/formatting.php:1999
+[08-Feb-2021 18:12:10 UTC] PHP Notice:  Trying to access array offset on value of type int in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/formatting.php on line 884
+[08-Feb-2021 18:12:10 UTC] PHP Stack trace:
+[08-Feb-2021 18:12:10 UTC] PHP   1. {main}() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin-ajax.php:0
+[08-Feb-2021 18:12:10 UTC] PHP   2. do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin-ajax.php:184
+[08-Feb-2021 18:12:10 UTC] PHP   3. WP_Hook->do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/plugin.php:484
+[08-Feb-2021 18:12:10 UTC] PHP   4. WP_Hook->apply_filters() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:311
+[08-Feb-2021 18:12:10 UTC] PHP   5. et_core_portability_ajax_import() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:287
+[08-Feb-2021 18:12:10 UTC] PHP   6. ET_Core_Portability->import() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/core/components/Portability.php:2388
+[08-Feb-2021 18:12:10 UTC] PHP   7. sanitize_file_name() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/core/components/Portability.php:82
+[08-Feb-2021 18:12:10 UTC] PHP   8. seems_utf8() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/formatting.php:1999
+[08-Feb-2021 18:12:10 UTC] PHP Notice:  Trying to access array offset on value of type int in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/formatting.php on line 884
+[08-Feb-2021 18:12:10 UTC] PHP Stack trace:
+[08-Feb-2021 18:12:10 UTC] PHP   1. {main}() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin-ajax.php:0
+[08-Feb-2021 18:12:10 UTC] PHP   2. do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin-ajax.php:184
+[08-Feb-2021 18:12:10 UTC] PHP   3. WP_Hook->do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/plugin.php:484
+[08-Feb-2021 18:12:10 UTC] PHP   4. WP_Hook->apply_filters() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:311
+[08-Feb-2021 18:12:10 UTC] PHP   5. et_core_portability_ajax_import() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:287
+[08-Feb-2021 18:12:10 UTC] PHP   6. ET_Core_Portability->import() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/core/components/Portability.php:2388
+[08-Feb-2021 18:12:10 UTC] PHP   7. sanitize_file_name() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/core/components/Portability.php:82
+[08-Feb-2021 18:12:10 UTC] PHP   8. seems_utf8() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/formatting.php:1999
+[08-Feb-2021 18:12:10 UTC] PHP Notice:  Trying to access array offset on value of type int in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/formatting.php on line 884
+[08-Feb-2021 18:12:10 UTC] PHP Stack trace:
+[08-Feb-2021 18:12:10 UTC] PHP   1. {main}() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin-ajax.php:0
+[08-Feb-2021 18:12:10 UTC] PHP   2. do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/admin-ajax.php:184
+[08-Feb-2021 18:12:10 UTC] PHP   3. WP_Hook->do_action() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/plugin.php:484
+[08-Feb-2021 18:12:10 UTC] PHP   4. WP_Hook->apply_filters() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:311
+[08-Feb-2021 18:12:10 UTC] PHP   5. et_core_portability_ajax_import() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php:287
+[08-Feb-2021 18:12:10 UTC] PHP   6. ET_Core_Portability->import() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/core/components/Portability.php:2388
+[08-Feb-2021 18:12:10 UTC] PHP   7. sanitize_file_name() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/plugins/divi-builder/core/components/Portability.php:82
+[08-Feb-2021 18:12:10 UTC] PHP   8. seems_utf8() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/formatting.php:1999
+[08-Feb-2021 18:16:17 UTC]  .../components/init.php:344  et_core_page_resource_get():
+Removing extra page resource file: /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/et-cache/120/et-core-unified-cpt-120-16128080834146.min.css
+
+[01-Mar-2021 09:37:14 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/wp-db.php on line 1653
+[01-Mar-2021 09:37:14 UTC] PHP Stack trace:
+[01-Mar-2021 09:37:14 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[01-Mar-2021 09:37:14 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[01-Mar-2021 09:37:14 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[01-Mar-2021 09:37:14 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[01-Mar-2021 09:37:14 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[01-Mar-2021 09:37:14 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[01-Mar-2021 09:37:14 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[01-Mar-2021 09:37:14 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[01-Mar-2021 09:37:14 UTC] PHP   9. require_wp_db() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-settings.php:124
+[01-Mar-2021 09:37:14 UTC] PHP  10. wpdb->__construct() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/load.php:527
+[01-Mar-2021 09:37:14 UTC] PHP  11. wpdb->db_connect() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/wp-db.php:632
+[01-Mar-2021 09:37:14 UTC] PHP  12. mysqli_real_connect() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/wp-db.php:1653
+[01-Mar-2021 19:09:08 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/wp-db.php on line 1653
+[01-Mar-2021 19:09:08 UTC] PHP Stack trace:
+[01-Mar-2021 19:09:08 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[01-Mar-2021 19:09:08 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[01-Mar-2021 19:09:08 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[01-Mar-2021 19:09:08 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[01-Mar-2021 19:09:08 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[01-Mar-2021 19:09:08 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[01-Mar-2021 19:09:08 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[01-Mar-2021 19:09:08 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[01-Mar-2021 19:09:08 UTC] PHP   9. require_wp_db() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-settings.php:124
+[01-Mar-2021 19:09:08 UTC] PHP  10. wpdb->__construct() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/load.php:527
+[01-Mar-2021 19:09:08 UTC] PHP  11. wpdb->db_connect() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/wp-db.php:632
+[01-Mar-2021 19:09:08 UTC] PHP  12. mysqli_real_connect() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/wp-db.php:1653
+[06-Apr-2021 17:32:36 UTC] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[06-Apr-2021 17:32:36 UTC] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[06-Apr-2021 17:32:36 UTC] PHP Fatal error:  Unknown: Failed opening required '/Applications/Local.app/Contents/Resources/extraResources/local-bootstrap.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in Unknown on line 0
+[06-Apr-2021 17:32:36 UTC] PHP Fatal error:  Unknown: Failed opening required '/Applications/Local.app/Contents/Resources/extraResources/local-bootstrap.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in Unknown on line 0
+[09-Apr-2021 18:08:12 UTC] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[09-Apr-2021 18:08:12 UTC] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[09-Apr-2021 18:08:12 UTC] PHP Fatal error:  Unknown: Failed opening required '/Applications/Local.app/Contents/Resources/extraResources/local-bootstrap.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in Unknown on line 0
+[09-Apr-2021 18:08:12 UTC] PHP Fatal error:  Unknown: Failed opening required '/Applications/Local.app/Contents/Resources/extraResources/local-bootstrap.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in Unknown on line 0
+[29-Apr-2021 17:40:11 UTC] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[29-Apr-2021 17:40:11 UTC] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[29-Apr-2021 17:40:11 UTC] PHP Fatal error:  Unknown: Failed opening required '/Applications/Local.app/Contents/Resources/extraResources/local-bootstrap.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in Unknown on line 0
+[29-Apr-2021 17:40:11 UTC] PHP Fatal error:  Unknown: Failed opening required '/Applications/Local.app/Contents/Resources/extraResources/local-bootstrap.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in Unknown on line 0
+[03-May-2021 07:14:03 UTC] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[03-May-2021 07:14:03 UTC] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[03-May-2021 07:14:03 UTC] PHP Fatal error:  Unknown: Failed opening required '/Applications/Local.app/Contents/Resources/extraResources/local-bootstrap.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in Unknown on line 0
+[03-May-2021 07:14:03 UTC] PHP Fatal error:  Unknown: Failed opening required '/Applications/Local.app/Contents/Resources/extraResources/local-bootstrap.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in Unknown on line 0
+[03-May-2021 07:15:00 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-simplepie.php on line 1728
+[08-May-2021 14:32:17 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-simplepie.php on line 1728
+[08-May-2021 14:52:39 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-config.php on line 80
+[08-May-2021 14:53:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-config.php on line 80
+[08-May-2021 14:53:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-config.php on line 80
+[08-May-2021 14:53:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-config.php on line 80
+[08-May-2021 14:53:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-config.php on line 80
+[12-Apr-2022 09:50:31 UTC] PHP Parse error:  syntax error, unexpected 'define' (T_STRING) in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-config.php on line 52
+[12-Apr-2022 09:51:35 UTC] PHP Parse error:  syntax error, unexpected 'define' (T_STRING) in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-config.php on line 52
+[12-Apr-2022 09:51:37 UTC] PHP Parse error:  syntax error, unexpected 'define' (T_STRING) in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-config.php on line 52
+[12-Apr-2022 14:39:04 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 14:39:04 UTC] PHP Stack trace:
+[12-Apr-2022 14:39:04 UTC] PHP   1. {main}() /Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 14:39:04 UTC] PHP   2. include() /Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 14:39:04 UTC] PHP   3. include() phar:///Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 14:39:04 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 14:39:04 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 14:39:04 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 14:39:04 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 14:39:04 UTC] PHP   8. require() phar:///Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 14:39:04 UTC] PHP   9. require_wp_db() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-settings.php:124
+[12-Apr-2022 14:39:04 UTC] PHP  10. wpdb->__construct() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/load.php:561
+[12-Apr-2022 14:39:04 UTC] PHP  11. wpdb->db_connect() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 14:39:04 UTC] PHP  12. mysqli_real_connect() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/wp-db.php:1753
+[19-Apr-2022 20:08:48 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/themes/ludi/inc/config.php on line 67
+[19-Apr-2022 20:08:48 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[19-Apr-2022 20:09:04 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/themes/ludi/inc/config.php on line 67
+[19-Apr-2022 20:09:04 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[19-Apr-2022 20:11:05 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/themes/ludi/inc/config.php on line 67
+[19-Apr-2022 20:11:05 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[19-Apr-2022 20:13:06 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/themes/ludi/inc/config.php on line 67
+[19-Apr-2022 20:13:06 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[19-Apr-2022 20:15:07 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/themes/ludi/inc/config.php on line 67
+[19-Apr-2022 20:15:07 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[19-Apr-2022 20:17:08 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/themes/ludi/inc/config.php on line 67
+[19-Apr-2022 20:17:08 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[19-Apr-2022 20:19:09 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/themes/ludi/inc/config.php on line 67
+[19-Apr-2022 20:19:09 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[20-Apr-2022 09:23:01 UTC] PHP Deprecated:  allowed_block_types est <strong>obsolète</strong> depuis la version 5.8.0 ! Utilisez allowed_block_types_all à la place. in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/functions.php on line 5698
+[20-Apr-2022 09:23:01 UTC] PHP Stack trace:
+[20-Apr-2022 09:23:01 UTC] PHP   1. {main}() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/post.php:0
+[20-Apr-2022 09:23:01 UTC] PHP   2. require() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/post.php:187
+[20-Apr-2022 09:23:01 UTC] PHP   3. get_block_editor_settings() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/edit-form-blocks.php:277
+[20-Apr-2022 09:23:01 UTC] PHP   4. get_allowed_block_types() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/block-editor.php:304
+[20-Apr-2022 09:23:01 UTC] PHP   5. apply_filters_deprecated() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/block-editor.php:141
+[20-Apr-2022 09:23:01 UTC] PHP   6. _deprecated_hook() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/plugin.php:662
+[20-Apr-2022 09:23:01 UTC] PHP   7. trigger_error() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/functions.php:5698
+[20-Apr-2022 09:24:28 UTC] PHP Deprecated:  allowed_block_types est <strong>obsolète</strong> depuis la version 5.8.0 ! Utilisez allowed_block_types_all à la place. in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/functions.php on line 5698
+[20-Apr-2022 09:24:28 UTC] PHP Stack trace:
+[20-Apr-2022 09:24:28 UTC] PHP   1. {main}() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/post.php:0
+[20-Apr-2022 09:24:28 UTC] PHP   2. require() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/post.php:187
+[20-Apr-2022 09:24:28 UTC] PHP   3. get_block_editor_settings() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/edit-form-blocks.php:277
+[20-Apr-2022 09:24:28 UTC] PHP   4. get_allowed_block_types() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/block-editor.php:304
+[20-Apr-2022 09:24:28 UTC] PHP   5. apply_filters_deprecated() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/block-editor.php:141
+[20-Apr-2022 09:24:28 UTC] PHP   6. _deprecated_hook() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/plugin.php:662
+[20-Apr-2022 09:24:28 UTC] PHP   7. trigger_error() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/functions.php:5698
+[20-Apr-2022 09:24:53 UTC] PHP Deprecated:  allowed_block_types est <strong>obsolète</strong> depuis la version 5.8.0 ! Utilisez allowed_block_types_all à la place. in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/functions.php on line 5698
+[20-Apr-2022 09:24:53 UTC] PHP Stack trace:
+[20-Apr-2022 09:24:53 UTC] PHP   1. {main}() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/post.php:0
+[20-Apr-2022 09:24:53 UTC] PHP   2. require() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/post.php:187
+[20-Apr-2022 09:24:53 UTC] PHP   3. get_block_editor_settings() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-admin/edit-form-blocks.php:277
+[20-Apr-2022 09:24:53 UTC] PHP   4. get_allowed_block_types() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/block-editor.php:304
+[20-Apr-2022 09:24:53 UTC] PHP   5. apply_filters_deprecated() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/block-editor.php:141
+[20-Apr-2022 09:24:53 UTC] PHP   6. _deprecated_hook() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/plugin.php:662
+[20-Apr-2022 09:24:53 UTC] PHP   7. trigger_error() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/functions.php:5698
+[20-Apr-2022 09:30:28 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/themes/ludi/inc/config.php on line 14
+[20-Apr-2022 09:30:28 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[20-Apr-2022 09:32:29 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/themes/ludi/inc/config.php on line 14
+[20-Apr-2022 09:32:29 UTC] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[20-Apr-2022 09:34:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_ation() in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/themes/ludi/inc/config.php:12
+Stack trace:
+#0 /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php(307): ludi_register_assets('')
+#1 /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/script-loader.php(2115): do_action('wp_enqueue_scri...')
+#4 /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts('')
+#5 /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-content/themes/ludi/inc/config.php on line 12
+[20-Apr-2022 17:19:22 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/wp-db.php on line 1753
+[20-Apr-2022 17:19:22 UTC] PHP Stack trace:
+[20-Apr-2022 17:19:22 UTC] PHP   1. {main}() /Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[20-Apr-2022 17:19:22 UTC] PHP   2. include() /Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[20-Apr-2022 17:19:22 UTC] PHP   3. include() phar:///Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[20-Apr-2022 17:19:22 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[20-Apr-2022 17:19:22 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[20-Apr-2022 17:19:22 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[20-Apr-2022 17:19:22 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[20-Apr-2022 17:19:22 UTC] PHP   8. require() phar:///Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[20-Apr-2022 17:19:22 UTC] PHP   9. require_wp_db() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-settings.php:124
+[20-Apr-2022 17:19:22 UTC] PHP  10. wpdb->__construct() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/load.php:561
+[20-Apr-2022 17:19:22 UTC] PHP  11. wpdb->db_connect() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/wp-db.php:724
+[20-Apr-2022 17:19:22 UTC] PHP  12. mysqli_real_connect() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/wp-db.php:1753
+[21-Apr-2022 09:31:15 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/wp-db.php on line 1753
+[21-Apr-2022 09:31:15 UTC] PHP Stack trace:
+[21-Apr-2022 09:31:15 UTC] PHP   1. {main}() /Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[21-Apr-2022 09:31:15 UTC] PHP   2. include() /Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[21-Apr-2022 09:31:15 UTC] PHP   3. include() phar:///Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[21-Apr-2022 09:31:15 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[21-Apr-2022 09:31:15 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[21-Apr-2022 09:31:15 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[21-Apr-2022 09:31:15 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[21-Apr-2022 09:31:15 UTC] PHP   8. require() phar:///Applications/Local 2.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[21-Apr-2022 09:31:15 UTC] PHP   9. require_wp_db() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-settings.php:124
+[21-Apr-2022 09:31:15 UTC] PHP  10. wpdb->__construct() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/load.php:561
+[21-Apr-2022 09:31:15 UTC] PHP  11. wpdb->db_connect() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/wp-db.php:724
+[21-Apr-2022 09:31:15 UTC] PHP  12. mysqli_real_connect() /Users/thierrycouilleault/Local Sites/sitesurmesure/app/public/wp-includes/wp-db.php:1753

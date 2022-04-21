@@ -1,0 +1,108 @@
+/*
+Theme Name: Ludi
+Theme URI: https://site-web-pro.let-us-do-it.fr/
+Author: Thierry Couilleault
+Author URI: https://site-web-pro.let-us-do-it.fr/
+Description: Thème sur mesure !
+Requires at least: WordPress 5.0
+Version: 1.0
+*/
+
+.menu {
+    position: fixed;
+    top: 0;
+}
+
+.admin-bar .menu {
+    top: 32px; /* on prend en compte le décalage */
+}
+
+h1 {
+    font-size : 75px;
+    color : blue;
+}
+
+.header {
+    display : flex;
+    background-color: darkgrey;
+    width:110vw;
+    padding:0;
+    margin:0;
+}
+
+.header img {
+    width : 80px;
+}
+
+.site__header__menu {
+    display : flex;
+    font-size: 20px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+
+    list-style-type: none;
+}
+
+.site__header__menu li {
+    padding :10px;
+}
+
+.site__header__menu ul {
+    color:black;
+}
+
+.ludi-search-form{
+    display : flex;
+    align-items: center;
+    justify-items: center;
+    padding-left:30px;
+}
+
+.ludi-search-form #search{
+    width:30%;
+    margin-right:10px;
+    margin-left:10px;
+
+}
+
+.ludi-search-form #img-search{
+    width:40px;
+    height:40px;
+
+
+}
+
+body {
+    padding :0;
+    background-color: white;
+}
+
+a:link {
+    color: black }
+a:visited {
+    color: red }
+
+.menu-item-99 a:link {
+    color : green;
+}
+
+.menu-item-99 a:visited {
+    color : yellow;
+}
+
+.page-title {
+    text-align: center;
+    background-color: #6eb9d4;
+}
+
+
+#ludi-main {
+    display:flex;
+    justify-items: center;
+}
+
+#ludi-content {
+    flex:70%;
+}
+
+
+
